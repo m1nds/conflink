@@ -1,12 +1,20 @@
+* {
+    font-family: sans-serif;
+}
+
 body {
     padding: 0;
     margin: 0;
 }
 
 #navbar {
-    background-color: black;
+    position: fixed;
+    top: 0;
+    width:100%;
+
+    background-color: #1E2328;
     padding: 1%;
-    height: 35px;
+    height: 75px;
 }
 
 #navbar ul {
@@ -14,22 +22,46 @@ body {
     display: inline-block;
     list-style: none;
     margin: 0;
-    padding-right: 15px;
+    padding-right: 150px;
 }
 
 #navbar li {
     float: right;
-    line-height: 35px;
+    font-size: 25px;
+    line-height: 75px;
     text-align: center;
-    padding-right: 16px;
+    padding-right: 30px;
     background: none;
 }
 
 #logo {
+    font-size: 35px;
     padding-left: 35px;
-    line-height: 35px;
+    line-height: 85px;
+    
     color: white;
 }
+
+.demo-button {
+    width: 200px;
+    text-align: center;
+    border: 1px solid #EAC04A;
+    color: #e7cb30; 
+    background: #F5B301;
+    cursor: pointer;
+    overflow: hidden;
+    border-radius: 4px;
+    padding: 5px;
+    transition: all 0.5s 0.1s;
+}
+
+.demo-button:hover {
+    background: transparent;
+    color: white;
+    height: 100%;
+}
+
+
 
 #navbar li a {
     text-decoration: none;
@@ -38,26 +70,22 @@ body {
 
 
 #navbar li a:hover {
-    color: blue;
+    color: white;
 }
 
 #footer {
     display: block;
-    padding: 50px;
+    height: 150px;
     text-align: center;
-    background-color: black;
-
+    background-color: #1E2328;
     color: white;
     text-decoration: none;
 }
 
 #footer a {
+    display: block;
     text-decoration: none;
     color: white;
-}
-
-#footer div {
-    padding-top: 15px;
 }
 
 #footer ul {
@@ -69,29 +97,91 @@ body {
     float: center;
 }
 
-#footer img {
-    display: inline;
+#social img {
+    display: flex;
     height: 32px;
     width: 32px;
     padding-right: 30px;
 }
 
 .showcase {
-    padding-top: 25px;
-    padding-bottom: 25px;
-    text-decoration: none;
+    background-image: linear-gradient(rgba(0,0,0,0.3), rgba(0,0,0,0.3), rgba(0,0,0,0.3)),url(../ressources/showcase4.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 800px;
+    min-height:800px;
     text-align: center;
-    height: 300px;
-    max-height: 1080px;
-    color: black;
-    padding: 50px;
-    background-size: auto 50%; 
 }
 
-.showcase div {
+.showcase h1 {
+    color: white;
+    font-size: 50px;
+    line-height: 1.6em;
+    padding-top: 150px;
     text-align: center;
-    margin: auto;
+}
+
+.showcase p {
+    color: white;
+    font-size: 20px;
     width: 50%;
+    margin: auto;
+    padding-bottom: 15px;
+    text-align: center;
+}
+
+.container {
+    display: table;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.button {
+    width: 200px;
+    padding: 15px 0;
+    text-align: center;
+    margin: 20px 10px;
+    font-weight: bold;
+    border: 2px solid #F5B301;
+    color: #F5B301; 
+    background: transparent;
+    cursor: pointer;
+    overflow: hidden;
+    border-radius: 5px;
+    transition: all 0.5s 0.1s;
+}
+
+.button:hover {
+    background: #F5B301;
+    color: white;
+    height: 100%;
+}
+
+.block {
+    float: left;
+    background-color: #F5B301;
+    width: 33.33%;
+    padding: 35px;
+    box-sizing: border-box;
+}
+
+.pricing {
+    background-color: white;
+    border-radius: 10px;
+    padding: 35px;
+    box-sizing: border-box;
+}
+
+@media screen and (max-width: 900px) {
+  #navbar li:not(:last-child) {display: none;}
 }
 
 
+@media screen and (max-width: 550px) {
+  .button {display: none;}
+}
+
+@media screen and (max-width: 500px) {
+  #navbar li {display: none;}
+}
