@@ -1,0 +1,35 @@
+body {
+    padding: 0;
+    margin: 0;
+}
+
+#navbar {
+    background-color: black;
+    margin: 0;
+    height: 50px;
+}
+
+#navbar ul {
+    float: right;
+    list-style: none;
+    margin: 0;
+    padding: 20px;
+}
+
+#navbar li {
+    display: inline;
+    padding-right: 16px;
+    background: none;
+    text-align: center;
+}
+
+#navbar a {
+    text-decoration: none;
+    color: white;
+}
+
+#navbar a:hover {
+    color: blue;
+}
+
+
