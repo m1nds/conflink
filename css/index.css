@@ -5,31 +5,93 @@ body {
 
 #navbar {
     background-color: black;
-    margin: 0;
-    height: 50px;
+    padding: 1%;
+    height: 35px;
 }
 
 #navbar ul {
     float: right;
+    display: inline-block;
     list-style: none;
     margin: 0;
-    padding: 20px;
+    padding-right: 15px;
 }
 
 #navbar li {
-    display: inline;
+    float: right;
+    line-height: 35px;
+    text-align: center;
     padding-right: 16px;
     background: none;
-    text-align: center;
 }
 
-#navbar a {
+#logo {
+    padding-left: 35px;
+    line-height: 35px;
+    color: white;
+}
+
+#navbar li a {
     text-decoration: none;
     color: white;
 }
 
-#navbar a:hover {
+
+#navbar li a:hover {
     color: blue;
+}
+
+#footer {
+    display: block;
+    padding: 50px;
+    text-align: center;
+    background-color: black;
+
+    color: white;
+    text-decoration: none;
+}
+
+#footer a {
+    text-decoration: none;
+    color: white;
+}
+
+#footer div {
+    padding-top: 15px;
+}
+
+#footer ul {
+    list-style: none;
+}
+
+#footer li {
+    display: inline;
+    float: center;
+}
+
+#footer img {
+    display: inline;
+    height: 32px;
+    width: 32px;
+    padding-right: 30px;
+}
+
+.showcase {
+    padding-top: 25px;
+    padding-bottom: 25px;
+    text-decoration: none;
+    text-align: center;
+    height: 300px;
+    max-height: 1080px;
+    color: black;
+    padding: 50px;
+    background-size: auto 50%; 
+}
+
+.showcase div {
+    text-align: center;
+    margin: auto;
+    width: 50%;
 }
 
 
