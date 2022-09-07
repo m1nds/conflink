@@ -1,0 +1,26 @@
+* {
+    font-family: sans-serif;
+}
+
+
+#demo-container {
+    display: block;
+
+    padding-top: 40px;
+    padding-bottom: 40px;
+    box-shadow: 5px 10px 8px 10px #888888;
+    border-radius: 25px;
+    background-color: white;
+}
+
+.video {
+    display: flex;
+    margin-bottom: 100px;
+    justify-content: center;
+}
+
+.text {
+    margin: 150px;
+    width:;
+}
+

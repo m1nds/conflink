@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/demo.css">
+    
+    <script src="https://cdn.tiny.cloud/1/5gg87qgu20x0knyli0sencq0a2cpqp3fv10kdnzgtts0nv87/tinymce/6/tinymce.min.js" referrerpolicy="origin"></script>
+
+    <title>Dev - ConfLink</title>
+</head>
+    <body>
+        <div id="demo-container">
+            <script>
+                tinymce.init({
+                    selector: 'textarea',
+                        plugins: 'a11ychecker advcode casechange export formatpainter image editimage linkchecker autolink lists checklist media mediaembed pageembed permanentpen powerpaste table advtable tableofcontents tinycomments tinymcespellchecker',
+                        toolbar: 'a11ycheck addcomment showcomments casechange checklist code export formatpainter image editimage pageembed permanentpen table tableofcontents',
+                        toolbar_mode: 'floating',
+                        tinycomments_mode: 'embedded',
+                        tinycomments_author: 'Author name',
+                });
+            </script>
+            <div class="video">
+                <video controls width="640" height="480" poster="initialimage.png" autoplay muted>
+                    <source src="flux video/test.mp4" type="video/mp4">
+                    <source src="videofile.webm" type="video/webm">
+                    <track src="subtitles_en.vtt" kind="subtitles" srclang="en" label="English">
+                    <track src="subtitles_no.vtt" kind="subtitles" srclang="no" label="Norwegian">
+                    <a src="test.mp4">Télécharger la vidéo</a>
+                </video>
+            </div>
+
+            <textarea class="text"></textarea>
+        </div>
+    </body>
+</html>
