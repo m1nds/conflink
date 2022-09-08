@@ -2,9 +2,22 @@
     font-family: sans-serif;
 }
 
+section {
+    display: block;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+}
+
+.page {
+    display: flex;
+    flex-direction: row;
+}
+
 .float-container {
     float: left;
-    
 
     padding: 40px;
     margin: 50px;
@@ -81,4 +94,13 @@
 
 .answer:hover {
     opacity: 85%;
+}
+
+.text-container {
+    
+    padding: 40px;
+    margin: 50px;
+    box-shadow: 5px 10px 8px 10px #888888;
+    border-radius: 25px;
+    background-color: white;
 }
