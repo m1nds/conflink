@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/prof.css">
+    
+    <script src="https://cdn.tiny.cloud/1/5gg87qgu20x0knyli0sencq0a2cpqp3fv10kdnzgtts0nv87/tinymce/6/tinymce.min.js" referrerpolicy="origin"></script>
+    <script src="js/video.js"></script>
+    <script src="js/chat.js"></script>    
+    <script src="js/qcm.js"></script>    
+    <title>Dev - ConfLink</title>
+</head>
+    <body>
+        <div class="page">
+            <div class="float-container">
+                <video controls width="440" height="240" poster="initialimage.png" autoplay muted>
+                    <source src="ressources/vid.mp4" type="video/mp4">
+                    <track src="subtitles_en.vtt" kind="subtitles" srclang="en" label="English">
+                    <track src="subtitles_no.vtt" kind="subtitles" srclang="no" label="Norwegian">
+                    <a src="test.mp4">Télécharger la vidéo</a>
+                </video>
+            </div>
+
+
+            <div class="float-container">
+                <div class="actions">
+                    <a class="title">Liste des participants</a>
+                    <ul class="participants">
+                        <li class="present">John Doe</li>
+                        <li class="present">Janne Doe</li>
+                        <li class="present">Jakob Doe</li>
+                        <li class="present">Jason Doe</li>
+                        <li class="present">Jimmy Doe</li>
+                        <li class="absent">Jaqueline Doe</li>
+                        <li class="absent">Jake Doe</li>
+
+                    </ul> 
+                </div>
+            </div>
+
+            <div class="float-container">
+                <div class="qcm">
+                    <a class="title" href="#">Outils</a>
+                    <a class="outils" href="#">Quizz</a>
+                    <a class="outils" href="#">Parole</a>
+                    <a class="outils" href="#">Vidéo</a>
+                </div>
+                <div>
+                    <a class="outils" href="#">Résultat</a>
+                    <a class="outils" href="#">Notifications</a>
+                    <a class="outils" href="#">Réglages</a>
+                </div>
+            </div>    
+        </div>
+        <div class="float-container">
+            <div class="chat-container">
+                <p>Chat</p>
+                <div id="chat"></div>
+                <input id="input"></input>
+                <button onclick="chatClick()">Envoyer</button>
+            </div>
+        </div>
+    </body>
+</html>

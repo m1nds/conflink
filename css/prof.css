@@ -1,0 +1,182 @@
+* {
+    font-family: "Helvetica", sans-serif;
+}
+
+section {
+    display: block;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    background-color: lightgray;
+}
+
+.page {
+    display: flex;
+    flex-direction: row;
+}
+
+.float-container {
+    float: left;
+    padding: 20px;
+    margin: 20px;
+    box-shadow: 5px 10px 8px 10px #888888;
+    border-radius: 25px;
+    background-color: white;
+}
+
+
+.actions a {
+    display: block;
+}
+
+.actions .act {
+    display: block;
+}
+
+.feedback a {
+    display: block;
+}
+
+.feedback .title {
+    margin: 35px;
+    text-align: center;
+}
+
+.title {
+    color: black;
+    text-decoration: none;
+}
+
+.feedback .emote{
+    text-align: center;
+    display: block;
+}
+
+.emote {
+    background-color: green;
+    padding: 10px;
+    margin-top: 30px;
+
+    margin: 15px;
+    text-align: center;
+    border-radius: 15px;
+}
+
+.emote:hover {
+    opacity: 85%;
+}
+
+.act {
+    text-decoration: none;
+    color: white;
+    margin: 30px;
+    padding: 10px;
+    background-color: green;
+    border-radius: 15px;
+}
+
+.act:hover {
+   opacity: 85%; 
+}
+
+.feedback .actions button {
+    border-radius: 15px;
+}
+
+.qcm a {
+    text-align: center;
+    display: block;
+}
+
+
+
+.outils {
+    color: white;
+    margin: 35px;
+    padding: 5px;
+    text-decoration: none;
+    background-color: green;
+    border-radius: 15px;
+}
+
+.answer:hover {
+    opacity: 85%;
+}
+
+#correct-answer:hover {
+    opacity: 85%;
+}
+
+.text-container {
+    
+    padding: 40px;
+    margin: 50px;
+    box-shadow: 5px 10px 8px 10px #888888;
+    border-radius: 25px;
+    background-color: white;
+}
+
+.chattext {
+    text-align: center;
+}
+
+#chat {
+
+    display: block;
+    margin: 20px;
+    padding-top: 20px;
+    border-radius: 10px;
+    height: 300px;
+    background-color: lightgray;
+}
+
+.chat-container {
+    width: 75em;
+}
+
+.chat-container p {
+    text-decoration: none;
+    color: black;
+    text-align: center;
+}
+#chat a {
+    text-align: end;
+    margin: 15px;
+    display: block;
+    padding: 15px;
+    color: white;
+}
+
+#correct-text {
+    display: none;
+    color: green;
+}
+
+#incorrect-text {
+    display: none;
+    color: red;
+}
+
+
+.participants .ul .li{
+    text-align: start;
+}
+
+.present {
+    list-style-type: disc;
+}
+
+.absent {
+    list-style-type: circle;
+}
+
+#input {
+    width: 92%;
+}
+
+
+.outils:hover  {
+    opacity: 85%;
+}
