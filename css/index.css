@@ -97,11 +97,34 @@ body {
     float: center;
 }
 
+
+.photo{
+    height: 32px;
+    width: 32px;
+    float:left;
+    border:1px solid black;
+    margin:5px;
+    padding:5px;
+    text-align:center;
+}
+img {
+    display: flex;
+    height: 32px;
+    width: 32px;
+    
+    padding-right: 200px;
+    padding-left: 200px;
+    
+    position: absolute;
+}
+
 #social img {
     display: flex;
     height: 32px;
     width: 32px;
-    padding-right: 30px;
+    padding-right: 200px;
+    padding-left: 200px;
+    position: absolute;
 }
 
 .showcase {
@@ -170,8 +193,17 @@ body {
 .blocki {
     float: left;
     background-color: #F5B301;
-    width: 33.33%;
+    width: 50%;
     padding: 35px;
+    box-sizing: border-box;
+}
+
+.blockard {
+    float: left;
+    background-color: rgb(52, 52, 52);
+    width: 33.3%;
+    padding: 35px;
+    height: 35px;
     box-sizing: border-box;
 }
 
