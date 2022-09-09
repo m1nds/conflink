@@ -153,6 +153,18 @@ img {
     text-align: center;
 }
 
+.showcase-second {
+    margin-top: 150px;
+    background-image: linear-gradient(rgba(0,0,0,0.3), rgba(0,0,0,0.3), rgba(0,0,0,0.3)),url(../ressources/showcase-secondpng.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    height: auto;
+    width: auto;
+    min-height:800px;
+    text-align: center;
+}
+
+
 .container {
     display: table;
     text-align: center;
