@@ -227,3 +227,17 @@ body {
     border-radius: 25px;
     background-color: white;
 }
+
+.quizz {    
+    color:white;
+    margin: 20px;
+    padding: 5px;
+    text-decoration: none;
+    background-color: rgb(255, 255, 255);
+    border-radius: 15px;
+    display: none;
+}
+
+.quizz:hover{
+    color: black;
+}
