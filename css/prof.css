@@ -132,7 +132,7 @@ body {
 
 .outils {
     color: white;
-    margin: 35px;
+    margin: 20px;
     padding: 5px;
     text-decoration: none;
     background-color: green;
@@ -217,4 +217,13 @@ body {
 
 .outils:hover  {
     opacity: 85%;
+}
+
+.notifications {
+    float: left;
+    padding: 20px;
+    margin: 20px;
+    box-shadow: 5px 10px 8px 10px #888888;
+    border-radius: 25px;
+    background-color: white;
 }
