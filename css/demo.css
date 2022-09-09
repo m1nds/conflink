@@ -20,7 +20,7 @@ body {
 .float-container {
     float: left;
     padding: 20px;
-    margin: 35px;
+    margin: 20px;
     box-shadow: 5px 10px 8px 10px #888888;
     border-radius: 25px;
     background-color: white;
@@ -67,6 +67,7 @@ body {
 }
 
 .act {
+    text-decoration: none;
     color: white;
     margin: 30px;
     padding: 10px;
@@ -107,7 +108,7 @@ body {
     opacity: 85%;
 }
 
-.correct-answer:hover {
+#correct-answer:hover {
     opacity: 85%;
 }
 
